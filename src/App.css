@@ -3,23 +3,13 @@ App{
   background-color: #57585B;
 }
 body{
-  background-color: #57585B !important;
-}
-.navbar{
-  transition-duration: .5s;
-  background-color: black;
-  max-height: 100px;
 }
 
-.navbar:hover{
-  transition-duration: .5s;
-  background-color:gold;
-}
 label{
   color:#FFFFFF;
 }
 button{
-  background-color: gold; /* Green */
+  background-color: #418B31; /* Green */
   border: none;
   color: black;
   padding: 10px 32px;
@@ -27,11 +17,11 @@ button{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 5px !important;
+  border-radius: 5px;
   transition-duration: .2s;
 }
 button:hover{
-  background-color: #418B31;
+  background-color: Gold;
   color: rgba(255, 255, 255, 1);
   transition-duration: .2s;
 }
@@ -39,9 +29,7 @@ textarea{
   border-radius: 5px;
   background-color:#F9F9F9;
 }
-col{
-  justify-content: center;
-}
+
 /*#418B31
   #57585B
  */
